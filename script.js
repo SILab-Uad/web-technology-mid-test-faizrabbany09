@@ -48,3 +48,5 @@ document.getElementById("copyBtn").addEventListener("click", function() {
     document.execCommand("copy");
     alert("Password copied to clipboard!");
 });
+
+module.exports = { generatePassword };
